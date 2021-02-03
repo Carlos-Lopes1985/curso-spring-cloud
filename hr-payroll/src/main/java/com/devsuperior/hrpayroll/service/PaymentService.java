@@ -10,12 +10,6 @@ import com.devsuperior.hrpayroll.feignclients.WorkerFeignClient;
 @Service
 public class PaymentService {
 	
-//	@Value("${hr-worker.host}")
-//	private String workerHost;
-//	
-//	@Autowired
-//	private RestTemplate restTemplate;
-	
 	@Autowired
 	private WorkerFeignClient workerFeignClient;
 	
